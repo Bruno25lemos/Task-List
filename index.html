@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="tarefa.png" type="image/x-icon">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <div class="conteudo">
+        <div class="topo">
+            <input type="text" id="inputNovaTarefa" placeholder="Adicione uma nova Tarefa">
+             <button class="btnAddTarefa"> + </button>
+        </div>
+        <ul id="listaTarefas">
+            <li>
+                <span class="textoTarefa"></span>
+                <div>
+                    <button class="btnAcao">
+                        <i class="fa fa-pencil"></i>
+                        Editar
+                    </button>
+                    <button class="btnAcao">
+                        Remover
+                        <i class="fa fa-trash"></i>
+                    </button>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
